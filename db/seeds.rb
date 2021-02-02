@@ -7,8 +7,9 @@ category2 = Category.create(title: 'Tropical')
 category3 = Category.create(title: "Cacti")
 category4 = Category.create(title: "Shrubbery")
 
-category1.items.create(title: 'Foxglove',        description: "Bell Shaped Flowers",             price: 10.95, image: File.new("#{Rails.root}/app/assets/images/foxglove.jpeg"))
-category1.items.create(title: 'Hemlock',         description: 'Charlie Brown Christmas Tree',    price: 20.95, image: File.new("#{Rails.root}/app/assets/images/hemlock.jpg"))
+
+category1.items.create(title: 'Hemlock Plant',   description: 'Charlie Brown Christmas Tree',    price: 20.95, image: File.new("#{Rails.root}/app/assets/images/hemlock.jpg"))
+category1.items.create(title: 'Neato thingy',    description: 'Charlie Brown Christmas Tree',    price: 20.95, image: File.new("#{Rails.root}/app/assets/images/hemlock.jpg"))
 category1.items.create(title: 'Danger Lily',     description: 'Deadly Red Flowers',              price: 13.95, image: File.new("#{Rails.root}/app/assets/images/19.jpg"))
 category1.items.create(title: 'Venus Fly Trap',  description: 'Must Feed Daily',                 price: 6.95,  image: File.new("#{Rails.root}/app/assets/images/20.jpg"))
 category1.items.create(title: 'Black Flower',    description: 'Use Gloves for Care',             price: 30.55, image: File.new("#{Rails.root}/app/assets/images/17.jpg"))
